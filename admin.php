@@ -14,8 +14,8 @@
         $password = mysqli_real_escape_string($con, $_POST['password']);
     
 
-        $pass = 'Saurabh@2000';
-        $em = 'saurabhsawale04@gmail.com';
+        $pass = ''; //write your own password
+        $em = ''; //write your own email
 
         $_SESSION['username'] = 'Saurabh';
 
